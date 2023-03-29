@@ -1,0 +1,79 @@
+/*******************************************************************/
+/* Author: Joseph Burgos                                           */
+/* Creating Date: Septemper 16, 2021                               */
+/* Due Date: September 17, 2021                                    */
+/* Course: CSC242                                                  */
+/* Professor Name: Dr. Carelli                                     */
+/* Assignment: CSS Styling                                         */
+/* Filename: style.css                                             */
+/* Purpose: This will be an external style sheet for my web pages. */
+/*******************************************************************/
+.special {color: blue;}
+.center {text-align: center;}
+table {width: 80%;}
+table, th, td{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr {padding: 0em;}
+thead {
+    text-decoration: underline;
+}
+th p{
+    font-size: 25pt;
+    color: pink;
+    background-color: #008000;
+    padding: 1em;
+    margin: 0em;
+}
+thead td {
+    background-color: #3CB371;
+    color: blue;
+    padding: 1em;
+}
+tbody td{
+    background-color: #2E8B57;
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.cell {width: 25%;}
+.log{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding: .5em;
+    text-align: left;
+    color: red;
+    width: 50%;
+}
+.dropdown {
+    border-style: none;
+    width: 100%;
+    position: relative;
+}
+.dropbox {
+    position: relative;
+    width: 100%;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #9ACD32;
+    width: 100%;
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    border-style: solid;
+    border-color: black;
+}
+a:link {color: blue;}
+a:visited    {color: #191970;}
+a:hover      {color: #8B0000;}
+

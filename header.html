@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Joe's Books</title>
+    <link rel = "stylesheet" type = "text/css"
+	  href = "style.css">
+  </head>
+
+  <body>
+
+    <table>
+      <thead class="center">
+	<!-- begining of table header -->
+	<tr>
+	  <!-- merge 4 columns for the heading of the web page -->
+	  <!-- use style to change font-size -->
+	  <th colspan = "4"><p>
+	    Joe's Books</p>
+	  </th>
+	</tr>
+	<tr>
+	  <!-- start a new row to set the list of links -->
+	  <td class="cell"><a href = "index.php">Home</a></td>
+	  <td class="cell"><a href = "browse.php">Browse</a></td>
+	  <!-- use <br/> to break the line and start a new one in the same column -->
+	  <td class="cell">
+	    <div class="dropdown">
+	      <div class="dropbox">My Shopping Cart</div>
+	      <div class="dropdown-content">
+		 <a href = "showCart.php">Show Cart</a>
+                 <a href = "clearCart.php">Clear Cart</a>
+                 <a href = "checkOrders.php">My Orders</a>
+	      </div>
+	    </div>
+	  </td>
+	  <td class="cell">
+	    <div class="dropdown">
+	      <div class="dropbox" >My account</div>
+	      <div class="dropdown-content">
+		<a href = "loginPage.php">Login</a>
+                <a href = "logout.php">Logout</a>
+                <a href = "create.php">Create Account</a>
+	      </div>
+	    </div>
+	  </td>
+	</tr>
+      </thead>	
+      <tfoot>
+	<!-- begining of the table footer, the bottom section of the table -->
+	<tr>
+	  <th colspan = "4"><p>Where the knowledge you seek can be found!</p>
+	    <p style = "font-size: 12pt;">Proprietor:<a href = "mailto:jburg379@live.kutztown.edu">Joseph Burgos</a></p>
+	  </th>
+	</tr>
+      </tfoot>
+      <tbody>
+	<tr class="center">
+	  <td colspan="4">
